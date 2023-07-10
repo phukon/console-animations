@@ -1,0 +1,27 @@
+{
+  "name": "console-animations",
+  "version": "1.0.0",
+  "description": "A lightweight package for creating animated console effects.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phukon/console-animations.git"
+  },
+  "keywords": [
+    "console",
+    "animation",
+    "terminal",
+    "effects",
+    "npm",
+    "package"
+  ],
+  "author": "Riki Phukon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/phukon/console-animations/issues"
+  },
+  "homepage": "https://github.com/phukon/console-animations#readme"
+}
