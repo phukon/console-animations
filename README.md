@@ -1,4 +1,4 @@
-# Console Animation
+# Console Animations
 
 Console Animation is a lightweight npm package that allows you to create animated console effects in your Node.js applications. It provides a simple and customizable way to add visual appeal and interactivity to command-line interfaces.
 
