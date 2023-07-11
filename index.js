@@ -57,7 +57,41 @@ const animationTypes = {
   }
 };
 
+let currentAnimation = null;
+
+function startAnimation(type, colorIndex) {
+  if (currentAnimation) {
+    console.log('An animation is already running.');
+    return;
+  }
+
+  const selectedAnimation = animationTypes[type];
+
+  if (!selectedAnimation) {
+    console.error(`Invalid animation type: ${type}`);
+    return;
+  }
+
+  const frames = selectedAnimation.frames;
+  const interval = selectedAnimation.interval;
+  currentAnimation = new Animation(frames, interval, colorIndex);
+  currentAnimation.start();
+}
+
+function stopAnimation() {
+  if (!currentAnimation) {
+    console.log('No animation is currently running.');
+    return;
+  }
+
+  currentAnimation.stop();
+  currentAnimation = null;
+  console.log('\nAnimation stopped.');
+}
+
 module.exports = {
   Animation,
-  animationTypes
+  animationTypes,
+  startAnimation,
+  stopAnimation
 };
