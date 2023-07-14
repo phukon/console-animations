@@ -63,7 +63,7 @@ startAnimation('spinner', 1); // Use color index 1 (green)
 
 ## Contributing
 
-Contributions are welcome! If you have any ideas, bug reports, or feature requests, please open an issue on the [GitHub repository](https://github.com/your-username/console-animations).
+Contributions are welcome! If you have any ideas, bug reports, or feature requests, please open an issue on the GitHub repository
 
 ## License
 
