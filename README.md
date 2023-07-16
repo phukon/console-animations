@@ -1,4 +1,4 @@
-
+[![NPM](https://nodei.co/npm/console-animations.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/console-animations/)
 # console-animations
 
 console-animations is a lightweight Node.js module that provides various animated effects for the console. It allows you to easily add animated spinner, progress bar, bouncing ball, and dot animations to your command-line applications.
